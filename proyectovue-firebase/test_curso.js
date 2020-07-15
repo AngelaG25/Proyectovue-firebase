@@ -56,24 +56,13 @@ new Vue({
         alert("No hay datos para agregar a la lista.");
       } else {
         this.items.push(this.newItem);
-        localStorage.setItem('curso-localdata', JSON.stringify(this.items));
-        this.items.push(this.newItem);
         document.getElementById("#datos-input").focus();
         this.newItem = "";
       }
     },
     removeItem: function(index) {
-      this.items.splice(index, 1);
-      localStorage.setItem('curso-localdata', JSON.stringify(this.items));
-    },
-    created: function(){
-      let datosDB = JSON.parse(localStorage.getItem("curso-localdata"));
-      if (datosDB === null) {
-        this.items = [];
-      } else {
-        this.items = datosDB;
-      }
-    }
+      this.items.splice(index, 1);      
+    },    
   }
 });
 
