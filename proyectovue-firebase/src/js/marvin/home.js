@@ -19,16 +19,10 @@ new Vue({
                 <li class="nav-item mx-0 mx-lg-1"> 
                 <a class="btn btn-outline-primary" href="login.html" role="button">Iniciar sesión</a>
             </li>
-              
               <li class="nav-item mx-0 mx-lg-1">
                 <a class="btn btn-outline-primary" href="register.html" role="button">Registrarse</a>
             </li> 
-               <!---- <li class="nav-item mx-0 mx-lg-1" id="Iniciar sesión"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"  href="#about">Iniciar sesión</a></li>
-              
-                
-                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Registrarse</a></li>
-            <!-->
-
+               
             </ul>
         </div>
     </div>
